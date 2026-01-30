@@ -121,7 +121,8 @@ async def on_ready():
         'cogs.dm_sender',
         'cogs.sleep_move',
         'cogs.transaction_logger',
-        'cogs.vc_earning'
+        'cogs.vc_earning',
+        'cogs.betting',
     ]
     
     for cog in cogs_to_load:
